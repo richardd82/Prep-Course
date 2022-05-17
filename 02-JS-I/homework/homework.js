@@ -251,7 +251,7 @@ function esVocal(letra){
   }
   for(i=0; i<5; i++){
     
-      if(letra == vocales[i]){
+      if(letra === vocales[i]){
           return "Es vocal";
       }
   }
