@@ -6,7 +6,6 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-
 const gato = {
   nombre: nombre,
   edad:   edad,
@@ -15,8 +14,6 @@ const gato = {
   }
 }
 return gato;
-
-
 }
 
 function agregarPropiedad (objeto, property) {
@@ -110,7 +107,6 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
   usuario.password = nuevaPassword;
-
   return usuario;
 }
 
@@ -159,7 +155,6 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-
   producto["calcularPrecioDescuento"]= function calcularPrecioDescuento(){
     var descuento = 0;
      return this.precio-(this.precio * this.porcentajeDeDescuento);    
