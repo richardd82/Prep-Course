@@ -1,0 +1,31 @@
+        html{
+            background-image: url("https://img.freepik.com/vector-gratis/patron-lineas-ondas-gris-blanco_3247-283.jpg?w=900");
+        }
+        body{
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+        }
+        div{
+            display: block;
+            text-align: center;
+        }
+        h1{
+            color: darkblue;
+        }
+        img{
+            width: 400px;
+        }
+        #thirdDiv{
+            height: 600px;
+            width: 500px;
+            background-color: cornflowerblue;
+            padding: 50px;
+            border: 5px;
+            border-color: darkred;
+            border-style: inset;
+        }
+        #spanId{
+            font-size: 18px;
+            margin: 50px;
+        }
